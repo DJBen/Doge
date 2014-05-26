@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48FCBFA193380420001B498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FCBF9193380420001B498 /* Foundation.framework */; };
+		F48FCBFC193380420001B498 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FCBFB193380420001B498 /* CoreGraphics.framework */; };
+		F48FCBFE193380420001B498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FCBFD193380420001B498 /* UIKit.framework */; };
+		F48FCC04193380420001B498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48FCC02193380420001B498 /* InfoPlist.strings */; };
+		F48FCC06193380420001B498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FCC05193380420001B498 /* main.m */; };
+		F48FCC0A193380420001B498 /* DGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FCC09193380420001B498 /* DGAppDelegate.m */; };
+		F48FCC0D193380420001B498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48FCC0B193380420001B498 /* Main.storyboard */; };
+		F48FCC10193380420001B498 /* DGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FCC0F193380420001B498 /* DGViewController.m */; };
+		F48FCC12193380420001B498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48FCC11193380420001B498 /* Images.xcassets */; };
+		F48FCC19193380420001B498 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FCC18193380420001B498 /* XCTest.framework */; };
+		F48FCC1A193380420001B498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FCBF9193380420001B498 /* Foundation.framework */; };
+		F48FCC1B193380420001B498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FCBFD193380420001B498 /* UIKit.framework */; };
+		F48FCC23193380420001B498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48FCC21193380420001B498 /* InfoPlist.strings */; };
+		F48FCC25193380420001B498 /* DogeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FCC24193380420001B498 /* DogeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48FCC1C193380420001B498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48FCBEE193380420001B498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48FCBF5193380420001B498;
+			remoteInfo = Doge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48FCBF6193380420001B498 /* Doge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48FCBF9193380420001B498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F48FCBFB193380420001B498 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F48FCBFD193380420001B498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F48FCC01193380420001B498 /* Doge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doge-Info.plist"; sourceTree = "<group>"; };
+		F48FCC03193380420001B498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F48FCC05193380420001B498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48FCC07193380420001B498 /* Doge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Doge-Prefix.pch"; sourceTree = "<group>"; };
+		F48FCC08193380420001B498 /* DGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGAppDelegate.h; sourceTree = "<group>"; };
+		F48FCC09193380420001B498 /* DGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGAppDelegate.m; sourceTree = "<group>"; };
+		F48FCC0C193380420001B498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48FCC0E193380420001B498 /* DGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGViewController.h; sourceTree = "<group>"; };
+		F48FCC0F193380420001B498 /* DGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGViewController.m; sourceTree = "<group>"; };
+		F48FCC11193380420001B498 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F48FCC17193380420001B498 /* DogeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48FCC18193380420001B498 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F48FCC20193380420001B498 /* DogeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogeTests-Info.plist"; sourceTree = "<group>"; };
+		F48FCC22193380420001B498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F48FCC24193380420001B498 /* DogeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48FCBF3193380420001B498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FCBFC193380420001B498 /* CoreGraphics.framework in Frameworks */,
+				F48FCBFE193380420001B498 /* UIKit.framework in Frameworks */,
+				F48FCBFA193380420001B498 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48FCC14193380420001B498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FCC19193380420001B498 /* XCTest.framework in Frameworks */,
+				F48FCC1B193380420001B498 /* UIKit.framework in Frameworks */,
+				F48FCC1A193380420001B498 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48FCBED193380420001B498 = {
+			isa = PBXGroup;
+			children = (
+				F48FCBFF193380420001B498 /* Doge */,
+				F48FCC1E193380420001B498 /* DogeTests */,
+				F48FCBF8193380420001B498 /* Frameworks */,
+				F48FCBF7193380420001B498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48FCBF7193380420001B498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48FCBF6193380420001B498 /* Doge.app */,
+				F48FCC17193380420001B498 /* DogeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48FCBF8193380420001B498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48FCBF9193380420001B498 /* Foundation.framework */,
+				F48FCBFB193380420001B498 /* CoreGraphics.framework */,
+				F48FCBFD193380420001B498 /* UIKit.framework */,
+				F48FCC18193380420001B498 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48FCBFF193380420001B498 /* Doge */ = {
+			isa = PBXGroup;
+			children = (
+				F48FCC08193380420001B498 /* DGAppDelegate.h */,
+				F48FCC09193380420001B498 /* DGAppDelegate.m */,
+				F48FCC0B193380420001B498 /* Main.storyboard */,
+				F48FCC0E193380420001B498 /* DGViewController.h */,
+				F48FCC0F193380420001B498 /* DGViewController.m */,
+				F48FCC11193380420001B498 /* Images.xcassets */,
+				F48FCC00193380420001B498 /* Supporting Files */,
+			);
+			path = Doge;
+			sourceTree = "<group>";
+		};
+		F48FCC00193380420001B498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48FCC01193380420001B498 /* Doge-Info.plist */,
+				F48FCC02193380420001B498 /* InfoPlist.strings */,
+				F48FCC05193380420001B498 /* main.m */,
+				F48FCC07193380420001B498 /* Doge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F48FCC1E193380420001B498 /* DogeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F48FCC24193380420001B498 /* DogeTests.m */,
+				F48FCC1F193380420001B498 /* Supporting Files */,
+			);
+			path = DogeTests;
+			sourceTree = "<group>";
+		};
+		F48FCC1F193380420001B498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48FCC20193380420001B498 /* DogeTests-Info.plist */,
+				F48FCC21193380420001B498 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48FCBF5193380420001B498 /* Doge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48FCC28193380420001B498 /* Build configuration list for PBXNativeTarget "Doge" */;
+			buildPhases = (
+				F48FCBF2193380420001B498 /* Sources */,
+				F48FCBF3193380420001B498 /* Frameworks */,
+				F48FCBF4193380420001B498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doge;
+			productName = Doge;
+			productReference = F48FCBF6193380420001B498 /* Doge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48FCC16193380420001B498 /* DogeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48FCC2B193380420001B498 /* Build configuration list for PBXNativeTarget "DogeTests" */;
+			buildPhases = (
+				F48FCC13193380420001B498 /* Sources */,
+				F48FCC14193380420001B498 /* Frameworks */,
+				F48FCC15193380420001B498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48FCC1D193380420001B498 /* PBXTargetDependency */,
+			);
+			name = DogeTests;
+			productName = DogeTests;
+			productReference = F48FCC17193380420001B498 /* DogeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48FCBEE193380420001B498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DJ.Ben;
+				TargetAttributes = {
+					F48FCC16193380420001B498 = {
+						TestTargetID = F48FCBF5193380420001B498;
+					};
+				};
+			};
+			buildConfigurationList = F48FCBF1193380420001B498 /* Build configuration list for PBXProject "Doge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48FCBED193380420001B498;
+			productRefGroup = F48FCBF7193380420001B498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48FCBF5193380420001B498 /* Doge */,
+				F48FCC16193380420001B498 /* DogeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48FCBF4193380420001B498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FCC12193380420001B498 /* Images.xcassets in Resources */,
+				F48FCC04193380420001B498 /* InfoPlist.strings in Resources */,
+				F48FCC0D193380420001B498 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48FCC15193380420001B498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FCC23193380420001B498 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48FCBF2193380420001B498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FCC06193380420001B498 /* main.m in Sources */,
+				F48FCC10193380420001B498 /* DGViewController.m in Sources */,
+				F48FCC0A193380420001B498 /* DGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48FCC13193380420001B498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FCC25193380420001B498 /* DogeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48FCC1D193380420001B498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48FCBF5193380420001B498 /* Doge */;
+			targetProxy = F48FCC1C193380420001B498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48FCC02193380420001B498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48FCC03193380420001B498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F48FCC0B193380420001B498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48FCC0C193380420001B498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F48FCC21193380420001B498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48FCC22193380420001B498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48FCC26193380420001B498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F48FCC27193380420001B498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48FCC29193380420001B498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doge/Doge-Prefix.pch";
+				INFOPLIST_FILE = "Doge/Doge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F48FCC2A193380420001B498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doge/Doge-Prefix.pch";
+				INFOPLIST_FILE = "Doge/Doge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F48FCC2C193380420001B498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Doge.app/Doge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doge/Doge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DogeTests/DogeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F48FCC2D193380420001B498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Doge.app/Doge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doge/Doge-Prefix.pch";
+				INFOPLIST_FILE = "DogeTests/DogeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48FCBF1193380420001B498 /* Build configuration list for PBXProject "Doge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48FCC26193380420001B498 /* Debug */,
+				F48FCC27193380420001B498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48FCC28193380420001B498 /* Build configuration list for PBXNativeTarget "Doge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48FCC29193380420001B498 /* Debug */,
+				F48FCC2A193380420001B498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48FCC2B193380420001B498 /* Build configuration list for PBXNativeTarget "DogeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48FCC2C193380420001B498 /* Debug */,
+				F48FCC2D193380420001B498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48FCBEE193380420001B498 /* Project object */;
+}
