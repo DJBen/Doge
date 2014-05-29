@@ -11,3 +11,9 @@
 @interface DGViewController : UIViewController
 
 @end
+
+@interface UIImage (DGAspectRatio)
+
+- (double)aspectRatio;
+
+@end
